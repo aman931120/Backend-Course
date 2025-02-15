@@ -1,0 +1,21 @@
+# DATABASE :-> A database is an organized collection of data that is stored and managed in a structured way, allowing for efficient retrieval, updating, and management of information.
+No Database is good no Database is bad
+
+# SQL and NoSQL
+Use SQL when data consistency
+Use NoSQL when dealing with large volumes of unstructured data, fast read/write operations, and high scalability 
+
+
+# What is Mongoose: [It is a ORM]
+Mongoose is an Object Data Modeling (ODM) library for MongoDB in Node.js. It provides a structured way to interact with MongoDB by defining schemas, performing CRUD operations, and handling data validation. And Moongoose is also NoSQL database
+
+
+# What is ORM in Backend?
+ORM (Object-Relational Mapping) is a technique used in backend development to interact with relational databases using objects instead of raw SQL queries.  
+
+
+# SQL and NoSQL
+documentation : https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql
+
+
+#

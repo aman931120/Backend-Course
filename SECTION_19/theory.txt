@@ -1,0 +1,7 @@
+// ngnix server
+nginx is a world Most popular Web server
+
+
+1. Nginx (pronounced "Engine-X") is a web server and reverse proxy server. It’s like a traffic controller for web requests. It handles requests from users (like loading websites or accessing APIs) and delivers responses back.
+
+2. 
