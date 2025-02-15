@@ -19,4 +19,4 @@ documentation : https://www.mongodb.com/resources/basics/databases/nosql-explain
 
 
 # Explore about MongoDB
-You will learn it later
+You will learn it later You can check it and study about atlas and compass
