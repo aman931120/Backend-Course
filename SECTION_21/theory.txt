@@ -39,5 +39,34 @@ What Can You Skip?
 ⭐ Introduction : 
 This lecture is based on how we can do Postman testing and how we check postman and how all the things works in Postman .
 
+⭐ Express.js
+It helps us to write Routes for out webpages.
+Express.js is a backend web framework for Node.js used to build web applications and APIs. It simplifies handling HTTP requests and responses, making it easier to create robust web servers.
 
+⭐ Routes:
+Routes define how an application should handle different HTTP requests. In simple terms, a route is a combination of:
+1. A URL (endpoint)
+2. An HTTP method (GET, POST, etc.)
+3. A callback function that runs when the route is accessed
+
+⭐ Express.js
+🔱First command that we will use is npm init.
+🔱Second command is installing express "npm install express"
+The command npm init is used to initialize a new Node.js project by creating a package.json file. package.json is a configuration file that stores metadata about your project, dependencies, scripts, and other settings.
+
+⭐ package.json
+"type": "module"    => we can use import
+"type": "commonjs"  => we can use const import here
+
+
+⭐ Dev Dependencies [Nodemon]
+Dev dependencies (short for development dependencies) are packages that are required only during development and not in production.
+"npm i -D nodemon" use for installing nodemon [Nodemon is a tool that automatically restarts your Node.js application whenever you make changes to your files.]
+
+
+⭐ GET & POST & PUT & DELETE
+app.post(); => for taking the input
+app.get();  => for displaying something on routes
+app.put();  => updating some information 
+app.delete; => deleting some information
 
