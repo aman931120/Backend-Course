@@ -1,0 +1,43 @@
+<-- LECTURE 94 -->
+⭐ SERVER:
+Server is something that serves, A server is a computer or a system that provides services or resources to other computers, called clients, over a network.
+example : Nodejs and Bun
+
+⭐ Node.js and Bun in the Context of Web Servers
+JavaScript runtime environments used for building and running web servers, but they have different purposes and optimizations.
+
+⭐ Creating Server with help of "Nodejs"
+    ->http.createServer() creates a web server.
+    ->The callback function (req, res) => {} runs every time a client (like a web browser) makes a request to the server.
+        ->req (request) represents the incoming request (from the browser).
+        ->res (response) is used to send a response back to the client.
+
+⭐ Postman [use for testing]
+Postman is used to test APIs before integrating them into a frontend like React.
+
+⭐ Creating Server with help of "BUN"
+What Should You Focus On?
+✅ How Bun's serve() function works (like http.createServer in Node.js)
+✅ How routing works (checking url.pathname)
+✅ How responses are sent using new Response()
+What Can You Skip?
+❌ Exact syntax (you can always Google it)
+❌ Remembering every method (as long as you understand the logic)
+
+
+
+
+<-- LECTURE 95 -->
+⭐ Nothing much he is just telling about the backend series. 
+⭐ He is telling about course and he is telling about "GOAL" and here he will tell about transferrable knowledge.
+⭐ complex and scalable backend.
+ 
+
+
+
+<-- LECTURE 96 -->
+⭐ Introduction : 
+This lecture is based on how we can do Postman testing and how we check postman and how all the things works in Postman .
+
+
+
