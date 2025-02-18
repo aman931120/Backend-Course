@@ -89,3 +89,20 @@ A .env file (short for "environment file") is a simple text file that stores con
 
 
 
+
+<-- LECTURE 98 -->
+⭐ Advanced Logging with Morgan and Winston
+In backend development, logging is essential for debugging, monitoring, and maintaining applications. Two popular logging libraries for Node.js are Morgan and Winston. Let's understand them in a simple way.
+
+1️⃣ Morgan: Request Logger
+Morgan is used to log HTTP requests in Express.js applications. It helps in tracking API calls, response times, and status codes.
+
+2️⃣ Winston: Advanced Logging
+Winston is a flexible logging library that allows custom log levels, file logging, and log formatting.
+🔱 npm install winston morgan
+🔱 for configuration go to chaicode.com and select devop stuffs and copy the code of morgan and winston and then paste it in the "logger.js" file
+
+⭐ When to Use This?
+👉When debugging backend APIs.
+👉When tracking errors and warnings in production.
+👉When storing logs for future analysis.
