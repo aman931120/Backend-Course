@@ -40,7 +40,7 @@ What Can You Skip?
 This lecture is based on how we can do Postman testing and how we check postman and how all the things works in Postman .
 
 ⭐ Express.js
-It helps us to write Routes for out webpages.
+It helps us to write Routes for our webpages.
 Express.js is a backend web framework for Node.js used to build web applications and APIs. It simplifies handling HTTP requests and responses, making it easier to create robust web servers.
 
 ⭐ Routes:
@@ -64,9 +64,28 @@ Dev dependencies (short for development dependencies) are packages that are requ
 "npm i -D nodemon" use for installing nodemon [Nodemon is a tool that automatically restarts your Node.js application whenever you make changes to your files.]
 
 
-⭐ GET & POST & PUT & DELETE
+⭐ GET & POST & PUT & DELETE    [C-R-U-D]
 app.post(); => for taking the input
 app.get();  => for displaying something on routes
 app.put();  => updating some information 
 app.delete; => deleting some information
+
+
+
+
+<-- LECTURE 97 -->
+GOAL: tests and documentation with Postman and deployment
+
+⭐ What is DigitalOcean?
+DigitalOcean is a cloud computing platform that provides developers with Infrastructure-as-a-Service (IaaS) and Platform-as-a-Service (PaaS) solutions. It offers virtual machines (Droplets), managed databases, Kubernetes, object storage, and other cloud services that help developers deploy, manage, and scale applications easily.
+👉Hosting websites & applications (Django, Flask, Node.js, etc.)
+👉Running APIs & backend services
+
+⭐ .env
+A .env file (short for "environment file") is a simple text file that stores configuration settings and sensitive information (like API keys, database credentials, and secret tokens) for a project. It helps keep your code clean, secure, and easily configurable.
+🔒Security
+⚙️Easier Configuration 
+🚫Prevents Accidental Leaks 
+
+
 
