@@ -106,3 +106,48 @@ Winston is a flexible logging library that allows custom log levels, file loggin
 👉When debugging backend APIs.
 👉When tracking errors and warnings in production.
 👉When storing logs for future analysis.
+
+
+
+
+<-- LECTURE 99 -->
+GOAL : from idea to Database design
+
+⭐ Introduction:
+We are going to design a database[can be any sql and nosql database],What information each field is storing like if we are building a library management system so different field are used there.
+
+⭐ Eraser Tool/websites :
+It is used to design the database
+
+⭐ Eraser code :->
+todos[icon:list]{
+  _id string pk
+  content string
+  complete boolean
+  subTodos ObjectId[] subTodos
+  createdBy ObjectId users
+  updatedAt Date
+  createdAt Date
+}
+
+
+users[icon:user]{
+  _id string pk
+  username : string
+  email string
+  password string 
+}
+
+subTodos [icon:list]{
+  _id string pk
+  content string
+  complete boolean
+  createdBy ObjectId user
+  createdAt Date
+  updatedAt Date 
+}
+
+todos.subTodos < subTodos._id
+todos.createdBy - users._id
+subTodos.createdBy - users._id
+
