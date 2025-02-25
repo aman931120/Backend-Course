@@ -90,7 +90,7 @@ A .env file (short for "environment file") is a simple text file that stores con
 
 
 
-<-- LECTURE 98 -->
+<-- LECTURE 98 -->  [Not that important for us]
 ⭐ Advanced Logging with Morgan and Winston
 In backend development, logging is essential for debugging, monitoring, and maintaining applications. Two popular logging libraries for Node.js are Morgan and Winston. Let's understand them in a simple way.
 
@@ -120,7 +120,7 @@ We are going to design a database[can be any sql and nosql database],What inform
 It is used to design the database
 
 ⭐ Eraser code :->
-todos[icon:list]{
+todos[icon:list]{     this todo is a entity
   _id string pk
   content string
   complete boolean
@@ -131,7 +131,7 @@ todos[icon:list]{
 }
 
 
-users[icon:user]{
+users[icon:user]{     this users is a entity
   _id string pk
   username : string
   email string
@@ -151,3 +151,72 @@ todos.subTodos < subTodos._id
 todos.createdBy - users._id
 subTodos.createdBy - users._id
 
+
+
+
+
+<-- LECTURE 100 -->
+GOAL : We are going to design a database for videotube network
+
+
+
+
+<-- LECTURE 101 -->
+GOAL :-> Backend project structure 
+
+🔱"npm init" first command to initialize the folder
+🔱"npm i --save-dev nodemon prettier" this command is to install dev dependencies
+🔱"npm install express mongoose" install express mongoose 
+NODEMON :-> is a development tool that automatically restarts your Node.js application when it detects changes in your code.
+PRETTIER :-> is a code formatter that ensures consistent code style by automatically formatting your code according to predefined rules.
+
+📂prettierrc -> This file is used to define formatting rules for your project.
+📂prettierignore -> This file is used to tell Prettier which files or folders to ignore when formatting.
+
+Next step:We created a src file and then we created following folder and files in them
+
+amant@Aman MINGW64 /d/Backend Practise/SECTION_21/VIDTUBE/src (main)
+$ mkdir controller db middlewares models routes utils
+$ touch app.js index.js constants.js .env .env.sample
+$ touch readme.md 
+
+
+NEXT STEP: Go inside models and create these files
+amant@Aman MINGW64 /d/Backend Practise/SECTION_21/VIDTUBE/src/models (main)
+$ touch comment.models.js like.models.js playlist.models.js subscription.models.js tweet.models.js user.models.js video.models.js
+
+⭐ How to run index.js file which we have created inside src folder❓
+We can write our own script in package.json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+Like this we can write our own script
+
+
+⭐ Core Files
+📄index.js → Entry point of the app. Typically, it initializes the server and connects to the database.
+📄app.js → Responsible for setting up the Express app, middleware (like body parsers, CORS), and routes.
+📄.env → Stores sensitive environment variables (like DB_URL, API keys) to avoid hardcoding them in code.
+📄.env.sample → Template of .env to show other developers what variables are needed without sharing sensitive data.
+📄constants.js → Used to define app-wide constants (like error codes, status messages, or app configurations).
+📄readme.md → Documentation file for the project, explaining how to set up, run, and contribute to the project.
+
+⭐Folders for Organizing Code
+📂controller/ → Contains logic for handling requests and responses. E.g., UserController handles user-specific operations.
+📂db/ → Handles database connection logic (like connecting to MongoDB using mongoose).
+📂middlewares/ → Custom middleware functions (e.g., authentication, logging, error handling).
+
+📂models/ → Mongoose schemas defining the structure of data in MongoDB.
+Inside models/:
+  comment.models.js → Schema for comments on videos.
+  like.models.js → Schema to track likes on videos or tweets.
+  playlist.models.js → Schema for user-created playlists.
+  subscription.models.js → Schema for user subscriptions.
+  tweet.models.js → Schema for tweets (if integrating Twitter-like features).
+  user.models.js → Schema for user data (e.g., username, email, password).
+  video.models.js → Schema for video data (e.g., title, URL, likes, views).
+  routes/ → Handles API endpoints and connects them to controllers.
+
+📂utils/ → Utility functions/helpers (e.g., formatters, validators, error handlers).
