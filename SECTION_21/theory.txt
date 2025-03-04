@@ -240,10 +240,10 @@ app.listen(PORT,() => {
   console.log(`Server is running on port ${PORT}`);
 }) 
 
-⭐Step-3 : You can download dotenv using npm i dotenv
+⭐Step-3 : You can download dotenv using "npm i dotenv"
 CREATE A ENV FILE in src folder and then put port value in It
 PORT = 8000
-import it in index.js
+import it in index.js by below command 
 import dotenv from "dotenv"
 dotenv.config({
   path:"./env"
@@ -252,7 +252,7 @@ after the above step we can write
 const PORT = process.env.PORT || 8001;
 
 
-⭐Step-4 : some more stuff:Course will talk with our database
+⭐Step-4 : some more stuff:CORS will talk with our database
 "npm i cors" : with this we will allow who can talk to our application, you donot want all the application in world to talk to the application so we installed it
     Imagine you made a backend API (your app.js). Now, maybe your own frontend (like your React website) should be allowed to talk to your backend — but what if some random hacker website tries to access your backend too?
     Without CORS, your backend has no control over who can send requests. It’s like leaving your house door open to everyone. 
@@ -282,8 +282,39 @@ Go and checkit out how to create a database and manage it ....
 ⭐Step-7.1 : Go to constants.js 
 export const DB_NAME = "vidtube"
 
+⭐⭐⭐⭐⭐
+Bascially you need to understand that we are just connecting database which is mongoDb and you can easily search and connect database whenever you need to connect it so you should not memorise. It is just like cin and cout in c++ the   more you practise the more you become good in connection of database from project.
 
+in index.js of db
+mport mongoose from "mongoose";
+import { DB_NAME } from "../constants.js";
 
+//method to connect database here 
+//database connection takes time
+const connectDB = async () => {
+    try {
+        const connectionInstance = await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
+        👉never keep slash at the the end of env variable like MONGODB_URI
+        console.log(`\n MongoDB connected ! DB host: ${connectionInstance.connection.host}`);
+        
+    } catch (error) {
+        console.log("MongoDB Connection error",error);
+        process.exit(1);
+    }
+}
+export default connectDB;
+
+in index.js of src file
+import connectDB from "./db/index.js";
+connectDB()
+.then(() => {
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+})
+.catch((err) => {
+    console.log("Mongodb Connection error",err);
+})
 
 
 
