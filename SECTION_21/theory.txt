@@ -368,3 +368,5 @@ you can check healthcheck is working or not on postman by get request
 
 <-- LECTURE 105 -->
 GOAL -> A guide to build models in MongoDB with aggregation plugin: we are going to write all the model that all we have  
+
+⭐Step 1 : first we will create model for users: if you learn this and rest other is just copy paste of this model . So just learn this and everything will be fine
