@@ -339,7 +339,7 @@ GOAL -> the goal is to create some helper utility function that will make our  e
 
 
 
-<-- LECTURE 104->
+<-- LECTURE 104 -->
 GOAL -> we going to build healthcheck APIs 
 it create a endpoint which does the healthcheck , it just gives you response back that everything is running fine or not. It’s just like a "heartbeat" — a quick response to say "Hey! I’m alive and working fine."
 // this is common standard practise
@@ -358,3 +358,13 @@ EACH MODELS WILL GET A CONTROLLER AND EACH CONTROLLER WILL GET ITS ROUTES
 Each controller will have there own routes/ routeHandler so that we can organise everything in a better way, create a healthcheck.routes.js in routes folder,
 // this is the standard code and will be used as same in every project 
 // we wrote the code here and now we will go to app.js file and bring routes 
+
+⭐Step 3 :
+you can check healthcheck is working or not on postman by get request 
+"http://localhost:8000/api/v1/healthcheck" => this comes from api.js
+
+
+
+
+<-- LECTURE 105 -->
+GOAL -> A guide to build models in MongoDB with aggregation plugin: we are going to write all the model that all we have  
