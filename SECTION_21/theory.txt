@@ -324,3 +324,37 @@ connectDB()
 
 
 
+
+<-- LECTURE 103 -->
+// all the thing in the video is optional and instead of that we can skip it but it is good industry practise so we should follow it
+GOAL -> the goal is to create some helper utility function that will make our  error standarize and response standarize and will some our time 
+
+⭐ Async Handler : A helper to handle async errors easily (avoids writing try-catch everywhere).
+⭐ ApiResponse : A utility to make consistent JSON responses (status, message, data). Keeps response format clean and professional.
+⭐ ApiError : ApiError is a utility class that helps you handle and send error responses in a clean, structured, and consistent way.
+
+// the above utils files are standard practises 
+// this whole thing can be used as optional
+
+
+
+
+<-- LECTURE 104->
+GOAL -> we going to build healthcheck APIs 
+it create a endpoint which does the healthcheck , it just gives you response back that everything is running fine or not. It’s just like a "heartbeat" — a quick response to say "Hey! I’m alive and working fine."
+// this is common standard practise
+✨ In short:
+✅ It’s a good practice (especially for production systems)
+✅ It helps with monitoring, debugging, and automatic restarts
+❌ It’s not mandatory for small personal projects or demos
+
+⭐Step1: 
+Go to the controllers and create a file which is "healthcheck.controllers.js" in that file import ApiResponse and asyncHandler
+and then write the code of healthcheck and export it 
+
+EACH MODELS WILL GET A CONTROLLER AND EACH CONTROLLER WILL GET ITS ROUTES
+
+⭐Step 2 :
+Each controller will have there own routes/ routeHandler so that we can organise everything in a better way, create a healthcheck.routes.js in routes folder,
+// this is the standard code and will be used as same in every project 
+// we wrote the code here and now we will go to app.js file and bring routes 
