@@ -400,7 +400,7 @@ userSchema.methods.isPasswordCorrect = async function(password){
 ⭐ JWT :
 Now after the security now we can provide user access toker or Refresh tokens 
 
-🔱"npm i jsonwebtoken"
+🔱 "npm i jsonwebtoken"
 The command npm i jsonwebtoken is used in Node.js applications to install the jsonwebtoken (JWT) package. It is used for secure authentication and authorization by generating and verifying JSON Web Tokens (JWTs).
 📌 Why Are We Using This?
 🔐 Secure Authentication
@@ -421,3 +421,16 @@ userSchema.methods.generateAccessToken = function () {
       { expiresIn: process.env.ACCESS_TOKEN_EXPIRY }
     );
 }
+
+
+
+
+<-- LECTURE 107 -->
+
+
+
+
+
+
+
+
