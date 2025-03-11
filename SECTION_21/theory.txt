@@ -371,5 +371,4 @@ GOAL -> A guide to build models in MongoDB with aggregation plugin: we are going
 
 ⭐ Step 1 : first we will create model for users: if you learn this and rest other is just copy paste of this model . So just learn this and everything will be fine
 
-
 ⭐ we first write about user.model.js :- in this we just wrote our model and it is very easy to understand
