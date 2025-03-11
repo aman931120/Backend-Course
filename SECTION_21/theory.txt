@@ -426,11 +426,33 @@ userSchema.methods.generateAccessToken = function () {
 
 
 <-- LECTURE 107 -->
+GOAL :-> How to handle files in MERN application
+
+🔱 "npm i cookie-parser" – Where is it Used in Backend?
+Think of cookies like small notes that a website gives to your browser. These notes store information, such as your login status or preferences.
+Now, when your browser sends these notes (cookies) back to the server, the server needs a way to read them. That’s where cookie-parser comes in!
+
+🔱 "npm i multer" 
+The command npm i multer is used in backend development with Node.js & Express.js to handle file uploads (like images, PDFs, videos, etc.).
+
+import multer from "multer";
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, "./public/temp"); // Save files in 'public/temp' folder
+  },
+  filename: (req, file, cb) => {
+    cb(null, file.originalname); // Keep the original file name
+  },
+});
+export const upload = multer({ storage: storage });
 
 
+⭐ Now we will go to utils and create a file "cloudinary.js", and in this we will get .....
 
+🔱 "npm i cloudinary" :
+Cloudinary is a cloud-based service that allows you to upload, store, and manage images & videos.
+When using npm i cloudinary, you integrate Cloudinary into your Node.js backend for handling media files.
 
-
-
+⭐ NOW in cloudinary.js file we will write]
 
 

@@ -7,5 +7,4 @@ const router = Router()
 router.route("/").get(healthcheck)
 // it will send us to healthcheck controller 
 // router.route("/test").get(healthcheck);
-
 export default router;
