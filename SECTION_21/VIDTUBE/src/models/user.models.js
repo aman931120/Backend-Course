@@ -69,7 +69,7 @@ const userSchema  = new Schema(
 )
 
 userSchema.pre("save", async function (next){
-    if(!this.modified("password"))  return next()
+    if(!this.isModified("password"))  return next()
     this.password = bcrypt.hash(this.password,10)
     next()
 })
@@ -103,6 +103,6 @@ userSchema.methods.generateRefreshToken = function () {
   );
 };
 
-export const User = mongoose.model("User",userSchmea); 
+export const User = mongoose.model("User",userSchema); 
 
 // A schema defines the structure of a document (a record) in a MongoDB collection

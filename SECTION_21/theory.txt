@@ -487,3 +487,11 @@ export {uploadOnCloudinary}
 
 
 <-- LECTURE 108 -->
+GOAL :-> Registration with Ultimate debugging and refractoring
+
+⭐ first create a user.controller.js in controllers and create a route which is called user.routes.js
+
+⭐ NEXT step we will go to app.js and import Routes
+1️⃣ import userRouter from "./routes/user.routes.js"
+2️⃣ app.use("/api/v1/users", user);
+
