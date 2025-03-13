@@ -527,3 +527,8 @@ controller is way to write bussiness logic
 
 <-- LECTURE 113 -->
 GOAL :-> How to get complex data with aggregation pipeline in MongoDB
+
+
+
+<-- LECTURE 113 -->
+GOAL :-> goal is to set the routes and set the middlewares
