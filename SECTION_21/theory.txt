@@ -500,3 +500,12 @@ GOAL :-> Registration with Ultimate debugging and refractoring
 
 <-- LECTURE 109 -->
 GOAL :-> How to write login controller in MERN backend
+
+
+
+
+<-- LECTURE 110 -->
+GOAL :-> How to generate new refersh token in MERN backend
+
+
+
