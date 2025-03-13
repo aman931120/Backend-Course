@@ -509,3 +509,10 @@ GOAL :-> How to generate new refersh token in MERN backend
 
 
 
+<-- LECTURE 111 -->
+GOAL :-> How to write middleware in MERN backend
+
+⭐ we created a file in middleware which is auth.middlewares.js
+
+
+
