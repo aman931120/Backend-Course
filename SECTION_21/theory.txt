@@ -516,3 +516,10 @@ GOAL :-> How to write middleware in MERN backend
 
 
 
+<-- LECTURE 112 -->
+GOAL :-> practise CRUD in MERN backend
+controller is way to write bussiness logic
+
+⭐ In this lecture we are bascially writing the new controller nothing more than that, 
+
+
