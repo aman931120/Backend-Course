@@ -43,4 +43,32 @@
 
 
 
-<-- Lecture 1 -->
+<-- Lecture 2 -->
+⭐ npx : node package executor
+🔱 "npx create-react-app 01basicreact" this is a command, it is a bulky utility so it takes time to set up in our vs code [IDE]
+
+🔱 "npm run start" is used to run the react app 
+🔱 "npm run build" creates a build folder
+
+🔱 "npm create vite@latest" we will create react setup
+🔱 "npm install" it will install all the packages
+
+⭐ Files that we will deleted from [01basicreact]
+    -> setupTests.JS
+    -> reportWebVitals.js
+    -> logo.svg
+    -> App.test.js
+    -> App.css 
+    -> index.css
+
+⭐ Files that we will delete from [01vitereact]
+    -> assets folder
+    -> App.css
+    -> index.css
+
+
+
+
+<-- Lecture 3 -->
+
+
