@@ -1,0 +1,46 @@
+// React course : in this section we are going to learn about text...
+
+<-- Introduction Lecture -->
+⭐ Why to learn React ?
+    -> hype, job, trend, build UI(user interface)
+    -> makes easy to manage and build complex frontend
+
+⭐ When should I learn React ?
+    -> After mastering JavaScript
+    -> Most project donot need react in initial phase
+
+⭐ Why react was created ?
+    -> Ghost message Problem 
+    -> No consistency in UI
+    -> React was created to solve performance, scalability, and maintainability issues in front-end development.
+
+⭐ Don't learn React if :
+    -> you don't know how JS works OR DOM works
+
+⭐ React learning Process :
+    -> go-in-depth
+    -> by making project(one topic at a time) : Todo, calculator, github API etc
+
+⭐ React is a library
+    -> framework V|S library
+    -> Yes, React is a JavaScript library, not a framework. It was designed specifically for building user interfaces, particularly for single-page applications (SPAs).
+
+⭐ Topic to learn
+    -> core of React (state or UI manipulation, JSX)
+    -> component Reusability
+    -> Reusing of component (props)
+    -> How to propogate change (hooks)
+
+⭐ Additional Addon to React
+    -> Router (React donot have router)
+    -> State management (React donot have state management)
+        [Redux, Redux toolkit, zustland, context API]
+    -> class based component
+        [legacy code]
+    -> BAAS apps
+        [Social media clone, e-commerce apps.....]
+
+
+
+
+<-- Lecture 1 -->
