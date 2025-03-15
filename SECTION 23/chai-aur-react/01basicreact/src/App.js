@@ -1,7 +1,13 @@
 
+import Chai from './chai.js'
+
+
 function App() {
   return (
-    <h1>Hello that side from Aman....</h1>
+    <>
+      <Chai/>
+      <h1>Chai aur react | Aman</h1>
+    </>
   );
 }
 

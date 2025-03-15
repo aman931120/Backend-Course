@@ -70,5 +70,22 @@
 
 
 <-- Lecture 3 -->
+React is a SPA [single page application]
+
+⭐ What is JSX in React?
+JSX (JavaScript XML) is a syntax extension for JavaScript used in React to write UI components. It looks similar to HTML but allows JavaScript expressions inside it. JSX makes it easier to create and visualize UI elements by combining HTML-like syntax with JavaScript logic.
+
+⭐ What is App.js 
+It is basically a function that returns a HTML, and in last we export that function 
+
+⭐ Inside 01vitereact
+    -> in this we can create chai.jsx and it is basically another function with uppercase letter
+
+⭐ Inside 01basicreact
+    -> in this we created a chai.js and this chai .js is a component
+    -> this chai.js is exported to app.js and then it is used 
+
+ 
 
 
+<-- Lecture 4 -->

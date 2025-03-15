@@ -1,10 +1,13 @@
+
+import Chai from "./chai.jsx"
+
+
 function App() {
-
-
-  return (
-    <>
-      <h1>Chai aur react with vite | Aman Kumar</h1>
-    </>
+  return (  
+      <>
+        <Chai/>
+        <h1>Chai aur react</h1>
+      </>
   )
 }
 
