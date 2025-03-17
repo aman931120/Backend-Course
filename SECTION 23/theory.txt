@@ -89,3 +89,17 @@ It is basically a function that returns a HTML, and in last we export that funct
 
 
 <-- Lecture 4 -->
+GOAL : create your own react library and JSX 
+In this we are going to create "Khud ka react"
+
+⭐ Not necessary to learn 
+    -> first we created customReact folder and in that folder we made two files first is customReact.js and index.HTML
+    -> This customReact.js is basically our main react
+        > we loaded the root(index.html) file
+        > we created a anchor tag
+    
+⭐ Bundler : Every react uses a bundler
+bundler is a tool that takes your project's various files (JavaScript, CSS, images, etc.), processes them, and combines them into optimized, browser-friendly output.
+
+⭐ 
+
