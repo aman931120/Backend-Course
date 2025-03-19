@@ -178,3 +178,8 @@ Goal : Tailwind and props in React, foundation of react will be over after this 
 ⭐ props : ye components ko banata hai Reusable
 
 
+
+
+<-- Lecture 8 -->
+⭐ In Previous video react foundation is over
+GOAL : React specific question for interview 
