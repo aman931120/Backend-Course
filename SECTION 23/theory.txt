@@ -182,4 +182,10 @@ Goal : Tailwind and props in React, foundation of react will be over after this 
 
 <-- Lecture 8 -->
 ⭐ In Previous video react foundation is over
-GOAL : React specific question for interview 
+GOAL : React specific question for interview question about counter game
+
+
+
+
+<-- Lecture 9 -->
+color app 
