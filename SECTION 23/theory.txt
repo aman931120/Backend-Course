@@ -156,3 +156,25 @@ With Fiber, React now says:
 
 
 <-- Lecture 7 -->
+Goal : Tailwind and props in React, foundation of react will be over after this Lecture
+
+⭐ First we created a 03tailwindprops folder 
+    -> "npm install -D tailwind postcss autoprefixer" this is a dev dependency
+    ->  "npx tailwind init -p" it will generate tailwind.config.js file 
+    -> go to tailwind.config.js 
+        /** @type {import('tailwindcss').Config} */
+            export default {
+            content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+            theme: {
+                extend: {},
+            },
+            plugins: [],
+            };
+    -> go to index.css file in src and 
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+⭐ props : ye components ko banata hai Reusable
+
+
