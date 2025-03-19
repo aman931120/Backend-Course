@@ -115,3 +115,44 @@ GOAL : Why we need HOOKS ?
     -> we add features of addvalue and remove value
 
 
+
+
+<-- Lecture 6 -->
+GOAL : virtual DOM, Fibre and reconciliation [Interview Important]
+
+⭐ createRoot method
+It creates the root, behind the scene, in virtual DOM we can have track of the tree
+
+⭐ React fibre Architecture
+    -> React fibre is an ongoing reimplimentation of React's core algorithm.
+    -> the goal of react fibre is to increase its sustanibility for the areas like animation, layout and gesture.
+React Fiber is a reimplementation of React's core algorithm, developed over two years to improve React’s performance in areas like animation, layout, and gestures. Its key feature is incremental rendering, which allows rendering work to be split into chunks and processed over multiple frames. Other features include the ability to pause, abort, or reuse work, assign priority to updates, and introduce new concurrency primitives.
+
+⭐ What is reconciliation?
+Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM."
+The algorithm React uses to diff one tree with another to determine which parts need to be changed
+
+⭐ The Two Trees in Reconciliation:
+1️⃣ Previous Virtual DOM Tree (Old Tree) – This represents the UI before an update.
+2️⃣ New Virtual DOM Tree (New Tree) – This represents the UI after an update.
+
+
+⭐ What is a fiber?
+A Fiber is just a small unit of work in React’s rendering process. Think of it as a to-do list item for React, where each Fiber represents a piece of your UI (like a button, a div, or a component).
+
+Before Fiber, React’s old system worked like this:
+📝 "Hey browser, here’s my entire UI update. Apply it all at once!" (This could cause laggy interactions.)
+
+With Fiber, React now says:
+✅ "Let’s break this update into smaller pieces. High-priority tasks first, and we’ll do the rest when we have time."
+
+⭐ Key updates Of fibre
+✅ Fiber = Task manager for UI updates
+✅ Breaks work into smaller chunks
+✅ Prioritizes urgent updates (user clicks > animations > background work)
+✅ Makes React faster and more responsive
+
+
+
+
+<-- Lecture 7 -->
